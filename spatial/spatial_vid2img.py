@@ -48,9 +48,10 @@ def write_images():
                         txt.write(text)
                 cap.release()
                 cv2.destroyAllWindows()
-            except e:
+            except:
+                e = sys.exc_info()[0]
                 with open("logfile.txt", "a") as h:
-                    h.write(e)
+                    h.write(str(e))
                 print "Some Error happened"
                 cap.release()
                 cv2.destroyAllWindows()
