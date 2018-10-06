@@ -19,11 +19,17 @@ Here are the steps to run the project on CCV dataset:
 ## Creating a virtual environment
 
 First create a directory named env and then run the following inside the directory. This will create a virtual environment. Assuming we create a requirements.txt file to help install modules that are needed in the project.
+
 `$ mkdir env`
+
 `$ cd env`
+
 `$ virtualenv venv-video-classification `
+
 `$ source  env-video-classification\bin\activate`
+
 `$ cd ..`
+
 `$ pip install requirements.txt` 
 
 

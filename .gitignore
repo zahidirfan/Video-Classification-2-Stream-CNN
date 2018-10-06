@@ -55,3 +55,15 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#Ignore Videos Folder
+videos/
+
+#VS Code Ignore
+.vscode/
+
+# Static Image Files
+spatial/sp_images/
+
+# DS_Store
+.DS_Store
